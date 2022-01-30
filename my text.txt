@@ -1,0 +1,30 @@
+-      rm -rf .git  , deletes the repo and make it simple folder
+
+1) to remove file from staging area:
+
+- git reset "filename"
+
+2) to check comit history:
+
+- git log
+
+3) BRANCHING:
+
+a)  To check the branches you currently have:
+
+- git branch
+
+b) To add a new branch you can simply type:
+
+- git branch newBranch   (OR)  git checkout  -b newBranch 
+
+
+c) If you want to switch branches you can see the checkout verb:
+
+- git checkout newBranch
+
+d) add , commit in new branch locally and check the changes in folder by checkout command 
+
+e) After we have done that, we can push our new branch into our remote repository:
+
+- git push  origin newBranch
